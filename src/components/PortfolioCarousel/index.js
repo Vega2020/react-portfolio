@@ -2,8 +2,14 @@ import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 
 function ProjectCarousel() {
+    const [index, setIndex] = useState(0);
+
+    const handleSelect = (selectedIndex, e) => {
+      setIndex(selectedIndex);
+    };
+
     return (
-<Carousel>
+<Carousel activeIndex={index} onSelect={handleSelect}>
   <Carousel.Item>
     <img
       className="d-block w-100"
