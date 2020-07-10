@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 
 function ProjectCarousel() {
+
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex, e) => {
@@ -13,7 +14,7 @@ function ProjectCarousel() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="holder.js/800x400?text=First slide&bg=373940"
+      src="https://placebear.com/200/300"
       alt="First slide"
     />
     <Carousel.Caption>
