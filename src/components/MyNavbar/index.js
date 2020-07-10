@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 
-function Title() {
+function MyNavbar() {
   return (
     <div>
         <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="#home">
+    <Navbar.Brand href="/">
       <img
         alt=""
         src="/logo.svg"
@@ -13,11 +13,11 @@ function Title() {
         height="30"
         className="d-inline-block align-top"
       />{' '}
-      React Bootstrap
+      Jeremy Flowers
     </Navbar.Brand>
   </Navbar>
     </div>
   )
 }
 
-export default Title
+export default MyNavbar
