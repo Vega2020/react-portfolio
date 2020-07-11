@@ -18,7 +18,7 @@ function MyTabs() {
   </Tab>
 
   <Tab eventKey="contact" title="Contact">
-
+    <p>flowersje08@gmail.com</p>
   </Tab>
 </Tabs>
   )

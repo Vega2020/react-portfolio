@@ -10,7 +10,6 @@ function App() {
     <>
     <MyNavbar></MyNavbar>
     <MyTabs></MyTabs>
-    {/* <ProjectCard></ProjectCard> */}
     </>
   );
 }
