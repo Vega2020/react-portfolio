@@ -56,7 +56,6 @@ function MyAccordion() {
         <p>Writing a readme is an important part of making a usable app, but it's hard to remember every section off the top of your head. This command line application collects all the necessary information from you with prompts and outputs it to a text file.</p>
         <br />
         <p><a href="https://github.com/Vega2020/Readme-Generator">Github repository</a></p>
-        <p>Coming soon to Heroku</p>
       </Card.Body>
     </Accordion.Collapse>
   </Card>
@@ -74,7 +73,7 @@ function MyAccordion() {
         <p>This progressive budget tracker allows you to download the app from the browser and run it natively. You can enter transactions while offline and they'll be uploaded when you sign back in.</p>
         <br />
         <p><a href="https://github.com/Vega2020/budget-tracker">Github repository</a></p>
-        <p>Deployed application via Heroku</p>
+        <p><a href="https://secret-chamber-71580.herokuapp.com/">Deployed application via Heroku</a></p>
       </Card.Body>
     </Accordion.Collapse>
   </Card>
@@ -87,7 +86,13 @@ function MyAccordion() {
     </Card.Header>
     <Accordion.Collapse eventKey="4">
       <Card.Body>
-
+        <h1>EatDaBurger</h1>
+        <h2>Burger Saving Full-Stack App</h2>
+        <p>EatDaBurger is a simple web app that stores user input in an interactive SQL interface. This allows the user to make up a burger, save it, and even move it back and forth from the list of burgers that have already been tried.</p>
+        <p>A future application of this technology would be a site that allows users to set daily goals for diet, exercise etc in different priority categories so they can get an overview of what's most important to them at the moment and where to focus their energy.</p>
+        <br />
+        <p><a href="https://github.com/Vega2020/EatDaBurger">Github Repo</a></p>
+        <p><a href="https://radiant-river-09328.herokuapp.com">Deployed App via Heroku</a></p>
       </Card.Body>
     </Accordion.Collapse>
   </Card>
@@ -110,7 +115,9 @@ function MyAccordion() {
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey="6">
-      <Card.Body>Hello! I'm another body</Card.Body>
+      <Card.Body>
+        ShapeShifter is a tile matching game for toddlers and children
+      </Card.Body>
     </Accordion.Collapse>
   </Card>
 
