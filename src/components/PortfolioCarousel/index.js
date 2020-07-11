@@ -1,53 +1,64 @@
-import React, { useState } from 'react'
-import Carousel from 'react-bootstrap/Carousel';
+import React, { useState } from "react";
+// Remember to put methods you'll need in the {} above; this is going to be a common troubleshooting issue.
 
-function ProjectCarousel() {
+// Import the carousel component from our CSS library
+import Carousel from "react-bootstrap/Carousel";
+import ProjectCard from "../ProjectCard";
 
-    const [index, setIndex] = useState(0);
+// Eventual step: add a button in each carousel slide that reveals cards below. Slides can be intro/contact - projects - professional - personal, each will populate different cards underneath. Also pause the carousel on mouseover.
 
-    const handleSelect = (selectedIndex, e) => {
-      setIndex(selectedIndex);
-    };
 
-    return (
-<Carousel activeIndex={index} onSelect={handleSelect}>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="https://placebear.com/200/300"
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=Second slide&bg=282c34"
-      alt="Third slide"
-    />
+// This is the template for how we'll be using the carousel.
+function PortfolioCarousel() {
+  const [index, setIndex] = useState(0);
 
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=20232a"
-      alt="Third slide"
-    />
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
 
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
-    )
+  return (
+    <Carousel activeIndex={index} onSelect={handleSelect}>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://placebear.com/800/200"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://placebear.com/800/200"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://placebear.com/800/200"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+        <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+        </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+    </Carousel>
+  );
 }
 
-export default ProjectCarousel;
+export default PortfolioCarousel;
