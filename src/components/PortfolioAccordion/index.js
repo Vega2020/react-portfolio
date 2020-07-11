@@ -121,7 +121,11 @@ function MyAccordion() {
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey="7">
-      <Card.Body>Hello! I'm another body</Card.Body>
+      <Card.Body>
+        <h1>ABA for Parents</h1>
+        <h2>You got this</h2>
+        <p>ABA for Parents is a workshop I ran in Pittsburgh on behalf of Autism Connections of PA.</p>
+      </Card.Body>
     </Accordion.Collapse>
   </Card>
 
