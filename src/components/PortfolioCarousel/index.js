@@ -3,7 +3,6 @@ import React, { useState } from "react";
 
 // Import the carousel component from our CSS library
 import Carousel from "react-bootstrap/Carousel";
-import ProjectCard from "../ProjectCard";
 
 // Eventual step: add a button in each carousel slide that reveals cards below. Slides can be intro/contact - projects - professional - personal, each will populate different cards underneath. Also pause the carousel on mouseover.
 
