@@ -21,12 +21,12 @@ function PortfolioCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://placebear.com/800/200"
-          alt="First slide"
+          src="./noatsBanner.png"
+          alt="Noats"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Noats</h3>
+          <p>SQL powered recipe app.</p>
         </Carousel.Caption>
       </Carousel.Item>
 
