@@ -21,7 +21,7 @@ function PortfolioCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={require("./noatsBanner.png")}
+          src={require('./noatsBanner.png')}
           alt="Noats"
         />
         <Carousel.Caption>
