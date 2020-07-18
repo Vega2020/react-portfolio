@@ -5,16 +5,16 @@ import Card from 'react-bootstrap/Card';
 
 function MyAccordion() {
     return (
-<Accordion>
+<Accordion  class="bg-dark text-white">
 
-  <Card>
-    <Card.Header>
+  <Card class="bg-dark text-white">
+    <Card.Header class="bg-dark text-white">
       <Accordion.Toggle as={Button} variant="link" eventKey="0">
         Uplift
       </Accordion.Toggle>
     </Card.Header>
-    <Accordion.Collapse eventKey="0">
-      <Card.Body>
+    <Accordion.Collapse eventKey="0" class="bg-dark text-white">
+      <Card.Body class="bg-dark text-white">
           <h1>Uplift</h1>
           <h2>Relaxation Randomized</h2>
           <p>Uplift is a simple app that delivers wholesome content as a pleasant distraction from traditional social media. Currently, the app delivers randomized content through API portals including Giphy, Spoonacular, and Youtube. Future iterations will allow saving and sharing of favorite content. This was a collaborative project.</p>
@@ -26,14 +26,14 @@ function MyAccordion() {
     </Accordion.Collapse>
   </Card>
 
-  <Card>
-    <Card.Header>
+  <Card class="bg-dark text-white">
+    <Card.Header class="bg-dark text-white">
       <Accordion.Toggle as={Button} variant="link" eventKey="1">
         React Docs Walkthrough
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey="1">
-      <Card.Body>
+      <Card.Body class="bg-dark text-white">
         <h1>React Docs Walkthrough</h1>
         <h2>Let's do this together</h2>
         <p>React is an awesome web development tool, but it has a steep learning curve. The docs are well-written but intimidating, and don't go into as much detail as they could. Lucky for you, your friend Vega has gone over them in detail and published these annotated notes breaking it all down in plain language. We're in this together. Let's do it.</p>
